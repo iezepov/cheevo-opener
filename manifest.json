@@ -1,0 +1,21 @@
+{
+  "name": "cheevo.io opener",
+  "version": "1.0",
+  "description": "Chrome extension to open cheevo.io right from the imdb.com",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {},
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  }
+}
